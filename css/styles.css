@@ -1,0 +1,113 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-transparent{
+    background-color: transparent;
+}
+
+.navbar{
+    z-index: 100 !important;
+    color: #fff;
+}
+
+.navbar a{
+    color: #fff;
+}
+
+.wave-1 img, .wave-2 img{
+    position: absolute;
+    top: 0;
+}
+
+.wave-1 img{
+    left:0;
+    max-width: 67%;
+}
+
+.wave-2 img{
+    z-index: 100;
+    max-width: 60%;
+    right: -2rem;
+    position: absolute;
+    top: 0;
+}
+
+.title-principal, .subtitle-principal{
+    z-index: 100;
+}
+
+.title-principal{
+    font-weight: 800;
+    position: absolute;
+    top: 15rem;
+    left: 8rem;
+    font-size: 5rem;
+}
+
+.subtitle-principal{
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+    font-size: 1.25rem;
+    font-weight:initial;
+}
+
+#learn-more-button, #request-demo-button{
+    position: absolute;
+    bottom: 17%;
+    padding: .5rem 2rem;
+}
+
+#learn-more-button{ 
+    left: 5%;   
+}
+
+#request-demo-button, #call-action-button{
+    left: 17%;
+    background-color: #F27137;
+    border-color: #F27137;
+    color:#fff
+}
+
+#request-demo-button:hover, #call-action-button:hover{
+    background-color: #c4450a !important;
+    border-color: #c4450a !important;
+}
+
+.product-section{
+    background-color:#F0F7FC;
+}
+
+.product-title{
+    text-align: center;
+    font-weight: 800;
+    padding: 5rem;
+}
+
+.btn-pills{
+    border-radius: 25px;
+}
+
+.btn-product{
+    padding: .5rem 2rem;
+}
+
+.call-action-section{
+    background-image: url('/img/call-action.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.title-call-action{
+    margin-top: 250px;
+    margin-left: 5rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+#call-action-button{
+    margin-left: 5rem;
+}
