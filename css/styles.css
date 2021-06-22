@@ -208,14 +208,14 @@ bottom: 66%;
 
     .title-principal{
         font-size: 37px;
-        top: 5rem;
-        left: 5rem;
+        top: 3rem;
+        left: 3rem;
         text-shadow: 1px 2px 6px rgb(95, 95, 95);
     }
 
     .subtitle-principal{
-        top: 7.5rem;
-        left: 5rem;
+        top: 5.5rem;
+        left: 3rem;
         text-shadow: 1px 2px 6px rgb(95, 95, 95);
         font-size: 14px;;
     }
@@ -247,6 +247,12 @@ bottom: 66%;
 
     .wave-1 img , .wave-2 img{
         max-width: 80%;
+    }
+
+    .wave-2 img{
+        position: relative;
+        top: 0px;
+        right: -5rem;
     }
 
     .navbar-brand img{
