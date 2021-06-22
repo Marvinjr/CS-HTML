@@ -152,10 +152,68 @@ body{
     flex-direction: unset;
 }
 
+.sideMenu{
+    display: none;
+}
 
+.sideMenu{
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: .5s;
+    padding-top: 60px;
+    background-color: #0350a2;
+}
+
+.sideMenu a{
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 14px;
+color: #fff;
+display: block;
+transition: 0.3s;
+}
+
+.sideMenu a:hover {
+    color: #F27137;
+    background-color:#003063 ;
+}
+
+.sideMenu.open{
+    width: 250px;
+}
+
+.languaje-section{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.closeButton{
+    position: relative;
+    top: 0;
+    left: 10rem;
+
+}
+
+.languaje-section a:hover{
+background-color:#003063 ;
+}
+
+.langOpen{
+   display: block !important;
+}
  /* Estilos creados para pantallas de tablet */
 
 @media screen and (min-width: 415px) and (max-width: 1024px){
+    .sideMenu{
+        display: block;
+    }
     .menu-main a{
         text-align: center;
         padding: 1rem;
@@ -205,6 +263,7 @@ bottom: 5%;
 
 /* Estilos creados para pantallas de telefonos moviles */
 @media screen and (max-width: 414px){
+   
 
     .menu-main a{
         text-align: center;
@@ -249,14 +308,14 @@ bottom: 5%;
     }
 
     #learn-more-button, #request-demo-button{
-        bottom: 0;
-        top: -4rem;
+
+        top: -3.5rem;
         position: relative;
         font-size: 11px;
     }
 
     #request-demo-button{
-        left: 6%;
+        left: 9%;
     }
 
     .title-call-action{
@@ -264,7 +323,7 @@ bottom: 5%;
     }
 
     .wave-1 img , .wave-2 img{
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .wave-2 img{
