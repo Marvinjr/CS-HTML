@@ -146,26 +146,32 @@ body{
     }
 
     .navbar-transparent{
-        background-color: #007bff;
+        background-color: transparent;
     }
 
-
-    .wave-1 img , .wave-2 img{
+    .navbar-brand img{
         display: none;
     }
 
+
+    /* .wave-1 img , .wave-2 img{
+        display: none;
+    } */
+/* 
     #learn-more-button,  #request-demo-button{
         display: none;
-    }
+    } */
 
     .title-principal{
-        top: 6rem;
+        top: 4rem;
         text-shadow: 1px 2px 6px rgb(95, 95, 95);
+        left: 3.5rem;
     }
 
     .subtitle-principal{
-        top: 11rem;
+        top: 9rem;
         text-shadow: 1px 2px 6px rgb(95, 95, 95);
+        left: 6rem;
     }
 
     #learn-more-button, #request-demo-button{
