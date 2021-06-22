@@ -342,6 +342,9 @@ bottom: 5%;
 
     .wrapper-buttons-main-banner{
         margin-top: -5rem;
+        display: flex;
     }
+
+
 }
 
