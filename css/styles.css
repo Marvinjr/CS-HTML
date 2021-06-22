@@ -2,13 +2,17 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+#main-nav{
+    z-index: 9999 !important;
+}
+
 .nav-transparent{
     background-color: transparent;
 }
 
-.main-nav{
-    z-index: 9999 !important;
-    color: #fff;
+.main-section{
+    position: relative;
+    top: -4.2rem;
 }
 
 .navbar a{
@@ -27,7 +31,6 @@ body{
 
 .wave-2 img{
     z-index: 100;
-    max-width: 60%;
     right: 0rem;
     position: absolute;
     top: 0;
@@ -153,9 +156,7 @@ bottom: 66%;
 }
 
 @media screen and (max-width: 414px){
-    .navbar-toggler{
-        border-color: #fff;
-    }
+
 
     .product-section,  #learn-more-button,  #request-demo-button{
         display: none;
@@ -195,13 +196,6 @@ bottom: 66%;
         margin-left: 2rem;
     }
 
-    .navbar-collapse{
-        background-color: #fff;
-        color: #f4f4f4;
-        padding: 0.5rem;
-    }
-    .navbar-collapse a{
-        color: #6a6a6a;
-    }
+
 }
 
