@@ -18,6 +18,7 @@ body{
 .main-section{
     position: relative;
     top: -4.2rem;
+    overflow: hidden;
 }
 
 .navbar a{
@@ -202,9 +203,9 @@ bottom: 66%;
 
     
 
-    #learn-more-button,  #request-demo-button{
+    /* #learn-more-button,  #request-demo-button{
         display: none;
-    }
+    } */
 
     .title-principal{
         font-size: 37px;
@@ -233,7 +234,7 @@ bottom: 66%;
 
     #learn-more-button, #request-demo-button{
         bottom: 0;
-        top: 108%;
+        top: -4rem;
         position: relative;
     }
 
