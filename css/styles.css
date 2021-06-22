@@ -1,7 +1,9 @@
+/* Estilos principales */
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Estilos del nav */
 #main-nav{
     z-index: 9999 !important;
 }
@@ -25,6 +27,8 @@ body{
     color: #fff;
 }
 
+
+/* Estilos para ondas de colores */
 .wave-1 img, .wave-2 img{
     position: absolute;
     top: 0;
@@ -41,6 +45,8 @@ body{
     top: 0;
 }
 
+
+/* Estilos para titulo Visual  y subtitulo*/
 .title-principal, .subtitle-principal{
     z-index: 100;
 }
@@ -61,6 +67,8 @@ body{
     font-weight:initial;
 }
 
+
+/* Estilos para botones de del banner principal */
 #learn-more-button, #request-demo-button{
     position: absolute;
     bottom: 17%;
@@ -71,6 +79,7 @@ body{
     left: 5%;   
 }
 
+/* Estilos para seccion de call action */
 #request-demo-button, #call-action-button{
     left: 17%;
     background-color: #F27137;
@@ -78,10 +87,20 @@ body{
     color:#fff
 }
 
+.call-action-section{
+    background-image: url('/img/call-action.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
 #request-demo-button:hover, #call-action-button:hover{
     background-color: #c4450a !important;
     border-color: #c4450a !important;
 }
+
+/* Estilos para seccion de productos */
 
 .product-section{
     background-color:#F0F7FC;
@@ -101,13 +120,7 @@ body{
     padding: .5rem 2rem;
 }
 
-.call-action-section{
-    background-image: url('/img/call-action.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-}
+
 
 .title-call-action{
     margin-top: 250px;
@@ -124,6 +137,8 @@ body{
     font-size: 75%;
 }
 
+/* Estilos para iconos de redes sociales */
+
 .social-item{
     background-color: #6c757d;
     border-radius: 100px;
@@ -138,7 +153,7 @@ body{
 }
 
 
-
+ /* Estilos creados para pantallas de tablet */
 
 @media screen and (min-width: 415px) and (max-width: 1024px){
     .menu-main a{
@@ -188,6 +203,7 @@ bottom: 5%;
     }
 }
 
+/* Estilos creados para pantallas de telefonos moviles */
 @media screen and (max-width: 414px){
 
     .menu-main a{
@@ -236,6 +252,7 @@ bottom: 5%;
         bottom: 0;
         top: -4rem;
         position: relative;
+        font-size: 11px;
     }
 
     #request-demo-button{
