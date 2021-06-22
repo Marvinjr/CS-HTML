@@ -153,6 +153,14 @@ bottom: 66%;
 }
 
 @media screen and (max-width: 414px){
+    .navbar-toggler{
+        border-color: #fff;
+    }
+
+    .product-section,  #learn-more-button,  #request-demo-button{
+        display: none;
+    }
+
     .title-principal{
         font-size: 59px;
         top: 7rem;
@@ -168,16 +176,32 @@ bottom: 66%;
         padding: 2rem;
     }
 
+    #learn-more-button{
+        bottom: 0;
+        top: 66%
+    }
+
     #learn-more-button, #request-demo-button{
-        bottom: 36%;
+        bottom: 0;
+        top: 108%;
+        position: relative;
     }
 
     #request-demo-button{
-        left: 49%;
+        left: 6%;
     }
 
     .title-call-action{
         margin-left: 2rem;
+    }
+
+    .navbar-collapse{
+        background-color: #fff;
+        color: #f4f4f4;
+        padding: 0.5rem;
+    }
+    .navbar-collapse a{
+        color: #6a6a6a;
     }
 }
 
