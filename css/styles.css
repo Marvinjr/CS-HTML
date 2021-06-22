@@ -1,4 +1,7 @@
 /* Estilos principales */
+html{
+    overflow-x: hidden;
+}
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -80,7 +83,7 @@ body{
 }
 
 /* Estilos para seccion de call action */
-#request-demo-button, #call-action-button{
+#request-demo-button, #call-action-button, .btn-orange{
     left: 17%;
     background-color: #F27137;
     border-color: #F27137;
@@ -95,7 +98,7 @@ body{
     height: 500px;
 }
 
-#request-demo-button:hover, #call-action-button:hover{
+#request-demo-button:hover, #call-action-button:hover, .btn-orange:hover{
     background-color: #c4450a !important;
     border-color: #c4450a !important;
 }
@@ -208,6 +211,11 @@ background-color:#003063 ;
 .langOpen{
    display: block !important;
 }
+
+.wrapper-buttons-main-banner{
+    display: none;
+}
+
  /* Estilos creados para pantallas de tablet */
 
 @media screen and (min-width: 415px) and (max-width: 1024px){
@@ -259,11 +267,14 @@ bottom: 5%;
     .btn-product{
         font-size: 12px;
     }
+
+    .wrapper-buttons-main-banner{
+        display: none;
+    }
 }
 
 /* Estilos creados para pantallas de telefonos moviles */
 @media screen and (max-width: 414px){
-   
 
     .menu-main a{
         text-align: center;
@@ -302,21 +313,13 @@ bottom: 5%;
         padding: 2rem;
     }
 
-    #learn-more-button{
-        bottom: 0;
-        top: 66%
-    }
+
 
     #learn-more-button, #request-demo-button{
-
-        top: -3.5rem;
-        position: relative;
-        font-size: 11px;
+        display: none;
     }
 
-    #request-demo-button{
-        left: 9%;
-    }
+
 
     .title-call-action{
         margin-left: 2rem;
@@ -324,6 +327,7 @@ bottom: 5%;
 
     .wave-1 img , .wave-2 img{
         max-width: 100%;
+        top: -18px;
     }
 
     .wave-2 img{
@@ -334,6 +338,10 @@ bottom: 5%;
 
     .navbar-brand img{
         display: none;
+    }
+
+    .wrapper-buttons-main-banner{
+        margin-top: -5rem;
     }
 }
 
