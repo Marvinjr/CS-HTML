@@ -6,8 +6,8 @@ body{
     background-color: transparent;
 }
 
-.navbar{
-    z-index: 100 !important;
+.main-nav{
+    z-index: 9999 !important;
     color: #fff;
 }
 
@@ -21,14 +21,14 @@ body{
 }
 
 .wave-1 img{
-    left:0;
+    left: 0;
     max-width: 67%;
 }
 
 .wave-2 img{
     z-index: 100;
     max-width: 60%;
-    right: -2rem;
+    right: 0rem;
     position: absolute;
     top: 0;
 }
@@ -111,3 +111,73 @@ body{
 #call-action-button{
     margin-left: 5rem;
 }
+
+.description{
+    font-size: 75%;
+}
+
+.social-item{
+    background-color: #6c757d;
+    border-radius: 100px;
+    padding: 0.55rem 0.15rem;
+    margin-right: 1rem;
+    width: 40px;
+    height: 40px
+}
+
+.social-nav{
+    flex-direction: unset;
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 1024px){
+    .title-principal{
+        top: 6rem;
+    }
+
+    .subtitle-principal{
+        top: 11rem;
+    }
+
+    #learn-more-button, #request-demo-button{
+bottom: 66%;
+    }
+
+    #request-demo-button{
+        left:28%;
+    }
+
+    .btn-product{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .title-principal{
+        font-size: 59px;
+        top: 7rem;
+        left: 6rem;
+    }
+
+    .subtitle-principal{
+        top: 11rem;
+        left: 7rem;
+    }
+
+    .product-title{
+        padding: 2rem;
+    }
+
+    #learn-more-button, #request-demo-button{
+        bottom: 36%;
+    }
+
+    #request-demo-button{
+        left: 49%;
+    }
+
+    .title-call-action{
+        margin-left: 2rem;
+    }
+}
+
