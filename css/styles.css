@@ -6,6 +6,11 @@ body{
     z-index: 9999 !important;
 }
 
+.menu-main a{
+    color: #fff !important;
+    text-align: right;
+}
+
 .nav-transparent{
     background-color: transparent;
 }
@@ -22,15 +27,14 @@ body{
 .wave-1 img, .wave-2 img{
     position: absolute;
     top: 0;
+    max-width: 125%;
 }
 
 .wave-1 img{
     left: 0;
-    max-width: 67%;
 }
 
 .wave-2 img{
-    z-index: 100;
     right: 0rem;
     position: absolute;
     top: 0;
@@ -134,6 +138,19 @@ body{
 
 
 @media screen and (min-width: 415px) and (max-width: 1024px){
+    .navbar-transparent{
+        background-color: #007bff;
+    }
+
+
+    .wave-1 img , .wave-2 img{
+        display: none;
+    }
+
+    #learn-more-button,  #request-demo-button{
+        display: none;
+    }
+
     .title-principal{
         top: 6rem;
     }
@@ -156,20 +173,28 @@ bottom: 66%;
 }
 
 @media screen and (max-width: 414px){
+    
+    .main-section{
+        position: relative;
+        top: 0rem;
+    }
 
+    .navbar-transparent{
+        background-color: #007bff;
+    }
 
-    .product-section,  #learn-more-button,  #request-demo-button{
+    #learn-more-button,  #request-demo-button{
         display: none;
     }
 
     .title-principal{
         font-size: 59px;
-        top: 7rem;
+        top: 4rem;
         left: 6rem;
     }
 
     .subtitle-principal{
-        top: 11rem;
+        top: 7.5rem;
         left: 7rem;
     }
 
@@ -196,6 +221,8 @@ bottom: 66%;
         margin-left: 2rem;
     }
 
-
+    .wave-1 img , .wave-2 img{
+        display: none;
+    }
 }
 
