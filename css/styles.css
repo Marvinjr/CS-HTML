@@ -138,6 +138,11 @@ body{
 
 
 @media screen and (min-width: 415px) and (max-width: 1024px){
+    .menu-main a{
+        text-align: center;
+        padding: 1rem;
+    }
+    
     .navbar-transparent{
         background-color: #007bff;
     }
@@ -153,10 +158,12 @@ body{
 
     .title-principal{
         top: 6rem;
+        text-shadow: 1px 2px 6px rgb(95, 95, 95);
     }
 
     .subtitle-principal{
         top: 11rem;
+        text-shadow: 1px 2px 6px rgb(95, 95, 95);
     }
 
     #learn-more-button, #request-demo-button{
@@ -173,6 +180,10 @@ bottom: 66%;
 }
 
 @media screen and (max-width: 414px){
+    .menu-main a{
+        text-align: center;
+        padding: 1rem;
+    }
     
     .main-section{
         position: relative;
@@ -191,11 +202,13 @@ bottom: 66%;
         font-size: 59px;
         top: 4rem;
         left: 6rem;
+        text-shadow: 1px 2px 6px rgb(95, 95, 95);
     }
 
     .subtitle-principal{
         top: 7.5rem;
-        left: 7rem;
+        left: 6.5rem;
+        text-shadow: 1px 2px 6px rgb(95, 95, 95);
     }
 
     .product-title{
